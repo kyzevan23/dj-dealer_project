@@ -1,0 +1,307 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 23px;
+  display: block;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.products-wrapper{
+  margin-left: 50px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(3,270px);
+  gap: 30px 150px;
+}
+
+.product{
+  transition: 0.1s;
+  align-items: center;
+}
+
+.product:hover{
+  transform: scale(1.1);
+  transition: 0.1s;
+}
+
+.p1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url("../img/bgcontacts.jpg") no-repeat center top / cover;
+  color: #fff;
+  height: 120px;
+}
+
+.logo {
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+header a {
+  color: white;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 40px;
+  letter-spacing: 0.1em;
+}
+
+.menu_item {
+  padding: 10px;
+  position: relative;
+}
+
+.menu_item:hover {
+  color: white;
+}
+
+.menu_item:hover::before {
+  transform: scaleX(1);
+  transition: transform 0.25s;
+}
+
+.menu_item::before {
+  content: "";
+  width: 76%;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  transform-origin: left;
+  bottom: -1px;
+  transform: scaleX(0);
+}
+
+.tel {
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.1em;
+}
+
+.enter {
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: auto;
+  align-items: center;
+  display: flex;
+  letter-spacing: 0.1em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu_img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  transition: 0.1s;
+}
+
+.menu_img:hover {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-left: 70px;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 5px;
+  background: #7b1b15;
+  width: 240px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+
+.btn:hover {
+  margin-top: 5px;
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px 5px;
+  background: #7b1b15;
+  box-shadow: 0px 9px 30px rgba(123, 27, 21, 0.43);
+  width: 240px;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.media_icons {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.media_icons img {
+  margin-right: 44px;
+}
+
+.media_icon {
+  width: 50px;
+  height: 50px;
+  transition: 0.1s;
+}
+
+.media_icon:hover {
+  width: 50px;
+  height: 50px;
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+.media_icon_two {
+  width: 40px;
+  height: 40px;
+  transition: 0.1s;
+}
+
+.media_icon_two:hover {
+  width: 40px;
+  height: 40px;
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+.media_icon_three {
+  width: 50px;
+  height: 45px;
+  transition: 0.1s;
+}
+
+.media_icon_three:hover {
+  width: 50px;
+  height: 45px;
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+.about_block {
+  margin-top: 40px;
+  margin-bottom: 176px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.menu_str {
+  margin-right: 85px;
+  border-radius: 15px;
+  margin-left: 70px;
+  align-items: center;
+  display: flex;
+  transition: 0.5s;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.table_icon {
+  width: 240px;
+  height: 190px;
+  margin-left: 10px;
+}
+
+.text_block {
+  width: 250px;
+}
+
+.text_block h1 {
+  font-weight: 500;
+  margin-left: 33px;
+  margin-bottom: 45px;
+  width: 510px;
+}
+
+.footer {
+  background: url("../img/footerbg.jpg") no-repeat center / cover;
+  height: 110px;
+}
+
+.footer_text {
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 42px;
+  width: 420px;
+  margin-left: 20px;
+}
+
+.menu_item_footer {
+  padding: 10px;
+  position: relative;
+}
+
+.media_icons_footer {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  width: 410px;
+}
+
+.media_icons_footer img {
+  margin-right: 5px;
+  opacity: 50;
+}
+
+.footer_text_right {
+  text-align: right;
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+  margin-top: 42px;
+}
+
+.nav_footer {
+  display: flex;
+  justify-content: space-between;
+}
